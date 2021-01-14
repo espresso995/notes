@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CreatNoteActivity"
+            android:name=".activities.CreatNoteActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".MainActivity"
+        <activity android:name=".activities.MainActivity"
             android:windowSoftInputMode="stateHidden"
             android:screenOrientation="fullSensor" >
             <intent-filter>
